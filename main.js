@@ -20,9 +20,10 @@ firstFormBuilder();
 const firstStringBuilder = () => {
     let inputString = document.getElementById('user-input').value;
     let inputStringArray = inputString.split(',');
-    let index = i;
+    let index = 0;
     for (let i = 0; i <inputStringArray.length, i++;) {
-       let outputString = inputString.charCodeAt(index);    
+        index++;
+        let outputString = inputStringArray[i].charCodeAt(index);   
     }
 
     printToDom(outputString, 'firstOutput');
