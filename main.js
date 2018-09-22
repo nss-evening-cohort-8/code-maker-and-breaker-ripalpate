@@ -24,7 +24,7 @@ const firstStringBuilder = () => {
     for (let i = 0; i <inputStringArray.length, i++;) {
         index++;
         let outputString = inputStringArray[i].charCodeAt(index);   
-     }
+    }
 
     printToDom(outputString, 'firstOutput');
 }
