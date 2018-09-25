@@ -8,7 +8,7 @@ const firstStringBuilder = () => {
     let inputString = document.getElementById('user-input').value;
     let inputStringArray = inputString.split('');
     for (let i = 0; i <inputStringArray.length; i++) {
-         outputString = inputStringArray[i].charCodeAt();  
+         outputString = inputStringArray[i].charCodeAt(); 
          outputString += ','; 
         printToDom(outputString, 'firstOutput');
     }
